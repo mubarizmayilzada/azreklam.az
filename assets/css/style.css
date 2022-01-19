@@ -101,11 +101,15 @@ header {
       .contact-wishlist .wishlist-icon:hover i {
         color: black; }
 
+main .navigation {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 50px 0; }
+
 main .navbar-main {
   text-align: center; }
   main .navbar-main nav {
     margin: 0 180px;
-    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     transition: color .3px ease; }
@@ -113,7 +117,6 @@ main .navbar-main {
       width: 50px;
       height: 50px; }
       main .navbar-main nav .item-logo:hover {
-        transition: all .4px ease;
         color: yellow; }
         main .navbar-main nav .item-logo:hover span {
           color: black; }
@@ -123,7 +126,8 @@ main .navbar-main {
         border-radius: 50%;
         border: 1px solid yellow;
         padding: 23px;
-        font-size: 28px; }
+        font-size: 28px;
+        background-color: white; }
       main .navbar-main nav .item-logo span {
         transition: color .3px ease; }
     main .navbar-main nav .nav-logo1 {
@@ -159,3 +163,214 @@ main .navbar-main {
       margin-top: 15px;
       font-weight: 500;
       font-size: 14px; }
+
+.filter .filter-wrapper {
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center; }
+  .filter .filter-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    color: teal;
+    font-size: 14px; }
+  .filter .filter-wrapper input,
+  .filter .filter-wrapper select {
+    width: 200px;
+    font-size: 16px;
+    color: teal;
+    outline: none;
+    padding: 5px 7px;
+    border: 1px solid #c8c8c8; }
+  .filter .filter-wrapper input {
+    padding: 5px 10px; }
+    .filter .filter-wrapper input::placeholder {
+      color: teal;
+      font-size: 14px; }
+  .filter .filter-wrapper select {
+    width: 350px; }
+  .filter .filter-wrapper .price {
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 3px solid teal; }
+    .filter .filter-wrapper .price .min-price-div {
+      margin-bottom: 15px; }
+  .filter .filter-wrapper .popularity {
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 3px solid teal; }
+    .filter .filter-wrapper .popularity .city-div {
+      margin-bottom: 15px; }
+  .filter .filter-wrapper .detail .type-div {
+    margin-bottom: 15px; }
+
+h1 {
+  margin: 70px auto;
+  font-size: 30px;
+  color: teal;
+  font-weight: 700;
+  text-align: center; }
+
+.ads .ad-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  .ads .ad-cards .ad-card {
+    margin-bottom: 50px;
+    width: 350px; }
+    .ads .ad-cards .ad-card .img-div {
+      height: 250px;
+      position: relative;
+      border: 2px solid teal;
+      border-bottom: none; }
+      .ads .ad-cards .ad-card .img-div img {
+        width: 100%;
+        height: 100%; }
+      .ads .ad-cards .ad-card .img-div span {
+        padding: 7px 17px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 10px;
+        left: 0; }
+      .ads .ad-cards .ad-card .img-div i {
+        font-size: 20px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        color: white;
+        padding: 5px 6px;
+        padding-top: 7px;
+        background-color: black;
+        border-radius: 50%;
+        transition: all 0.4s ease; }
+        .ads .ad-cards .ad-card .img-div i:hover {
+          color: red; }
+    .ads .ad-cards .ad-card .content {
+      padding: 20px 10px;
+      border: 3px solid teal; }
+      .ads .ad-cards .ad-card .content ul {
+        line-height: 35px; }
+        .ads .ad-cards .ad-card .content ul li i {
+          margin-right: 7px;
+          color: teal; }
+        .ads .ad-cards .ad-card .content ul li span {
+          font-size: 16px;
+          font-weight: 500; }
+
+footer {
+  margin-top: 100px;
+  padding: 50px;
+  background-color: teal;
+  border-top: 4px solid yellow;
+  color: white; }
+  footer .container {
+    display: flex;
+    position: relative; }
+    footer .container h3 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid yellow; }
+  footer .contact {
+    display: flex;
+    margin-right: 50px; }
+    footer .contact h2 {
+      font-size: 18px;
+      font-weight: 500; }
+    footer .contact ul {
+      margin-top: 20px;
+      line-height: 40px; }
+      footer .contact ul span {
+        color: yellow;
+        margin-right: 10px; }
+      footer .contact ul li {
+        display: flex; }
+  footer .social-links {
+    display: flex; }
+    footer .social-links h2 {
+      font-size: 18px;
+      font-weight: 500; }
+    footer .social-links ul {
+      display: flex;
+      margin-top: 20px;
+      height: 30px; }
+      footer .social-links ul span {
+        color: yellow;
+        margin-right: 10px; }
+      footer .social-links ul li {
+        display: flex; }
+        footer .social-links ul li i {
+          border-radius: 50%;
+          padding: 8px;
+          background-color: yellow;
+          margin: 0 10px;
+          color: teal; }
+
+@media screen and (max-width: 1025px) {
+  .filter .filter-wrapper {
+    display: block;
+    margin: 0 150px; }
+    .filter .filter-wrapper input,
+    .filter .filter-wrapper select {
+      width: 100%; }
+    .filter .filter-wrapper .price {
+      border-right: none;
+      border-bottom: 3px solid teal;
+      padding: 50px 30px; }
+    .filter .filter-wrapper .popularity {
+      border-right: none;
+      border-bottom: 3px solid teal;
+      padding: 50px 30px; }
+    .filter .filter-wrapper .detail {
+      border-right: none;
+      margin-right: 30px;
+      padding: 50px 30px; } }
+
+@media screen and (max-width: 769px) {
+  .ads .ad-cards .ad-card {
+    width: 100%;
+    margin: 0 100px;
+    margin-bottom: 50px; }
+  footer .container h3 {
+    bottom: -40px;
+    font-size: 14px; } }
+
+@media screen and (max-width: 769px) {
+  header {
+    display: block; }
+    header .main-logo {
+      margin-bottom: 50px;
+      text-align: center; }
+    header .contact-wishlist {
+      margin: 0;
+      width: 100%; }
+      header .contact-wishlist .header-contact {
+        white-space: nowrap; }
+        header .contact-wishlist .header-contact p {
+          white-space: nowrap; }
+  .filter .filter-wrapper {
+    margin: 0px; }
+  .ads .ad-cards .ad-card {
+    margin-right: 0;
+    margin-left: 0; }
+  .navigation .navbar-main nav {
+    margin: 0 10px;
+    flex-wrap: wrap; }
+    .navigation .navbar-main nav .navbar-item {
+      margin-bottom: 50px; }
+  footer .container {
+    display: block; }
+    footer .container .contact ul {
+      position: relative;
+      right: 70px; }
+    footer .container h2 {
+      white-space: nowrap; }
+    footer .container h3 {
+      bottom: -130px;
+      font-size: 14px; }
+    footer .container .social-links {
+      margin-top: 50px;
+      margin-bottom: 100px; } }
