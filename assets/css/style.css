@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 35px;
+  background-color: #006464;
+  height: 100%;
+  width: 100%; }
+
+.main-logo h2 {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 20px;
+  color: yellow;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+.contact-wishlist {
+  display: flex;
+  justify-content: space-between;
+  width: 300px; }
+  .contact-wishlist .header-contact {
+    text-align: left;
+    display: flex;
+    align-items: center; }
+    .contact-wishlist .header-contact i {
+      font-size: 33px;
+      color: yellow;
+      margin-right: 10px; }
+    .contact-wishlist .header-contact a {
+      color: white;
+      font-weight: 700; }
+      .contact-wishlist .header-contact a p {
+        margin-bottom: 5px; }
+  .contact-wishlist .wishlist-icon {
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    transition: background-color .2s ease; }
+    .contact-wishlist .wishlist-icon i {
+      font-size: 25px;
+      color: white;
+      padding-top: 1px;
+      transition: color .2s ease; }
+    .contact-wishlist .wishlist-icon:hover {
+      background-color: yellow; }
+      .contact-wishlist .wishlist-icon:hover i {
+        color: black; }
+
+main .navbar-main {
+  text-align: center; }
+  main .navbar-main nav {
+    margin: 0 180px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: color .3px ease; }
+    main .navbar-main nav .item-logo {
+      width: 50px;
+      height: 50px; }
+      main .navbar-main nav .item-logo:hover {
+        transition: all .4px ease;
+        color: yellow; }
+        main .navbar-main nav .item-logo:hover span {
+          color: black; }
+      main .navbar-main nav .item-logo i {
+        transition: all .3s ease;
+        transition: all .4px ease;
+        border-radius: 50%;
+        border: 1px solid yellow;
+        padding: 23px;
+        font-size: 28px; }
+      main .navbar-main nav .item-logo span {
+        transition: color .3px ease; }
+    main .navbar-main nav .nav-logo1 {
+      color: teal; }
+      main .navbar-main nav .nav-logo1 i {
+        padding-left: 27px;
+        padding-right: 27px; }
+    main .navbar-main nav .nav-logo2 {
+      color: royalblue; }
+    main .navbar-main nav .nav-logo3 {
+      color: pink; }
+    main .navbar-main nav .nav-logo4 {
+      color: purple; }
+      main .navbar-main nav .nav-logo4 i {
+        padding-left: 25px;
+        padding-right: 25px; }
+    main .navbar-main nav .nav-logo5 {
+      color: peru; }
+    main .navbar-main nav .nav-logo6 {
+      color: hotpink; }
+      main .navbar-main nav .nav-logo6 i {
+        padding-left: 20px;
+        padding-right: 20px; }
+    main .navbar-main nav .nav-logo7 {
+      color: aqua; }
+      main .navbar-main nav .nav-logo7 i {
+        padding-left: 25px;
+        padding-right: 25px; }
+    main .navbar-main nav .nav-logo8 {
+      color: blueviolet; }
+    main .navbar-main nav span {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+      font-size: 14px; }

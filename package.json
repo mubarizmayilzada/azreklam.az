@@ -1,0 +1,22 @@
+{
+  "name": "billboard",
+  "version": "1.0.0",
+  "description": "Billboard site for Artmood",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubarizmayilzada/Billboard.git"
+  },
+  "author": "Marz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubarizmayilzada/Billboard/issues"
+  },
+  "homepage": "https://github.com/mubarizmayilzada/Billboard#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
