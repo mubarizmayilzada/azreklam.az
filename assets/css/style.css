@@ -288,6 +288,8 @@ footer {
         margin-right: 10px; }
       footer .contact ul li {
         display: flex; }
+        footer .contact ul li a {
+          color: white; }
   footer .social-links {
     display: flex; }
     footer .social-links h2 {
