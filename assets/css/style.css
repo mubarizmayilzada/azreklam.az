@@ -56,7 +56,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 35px;
-  background-color: #006464;
+  background-color: blueviolet;
   height: 100%;
   width: 100%; }
 
@@ -115,7 +115,10 @@ main .navbar-main {
     transition: color .3px ease; }
     main .navbar-main nav .item-logo {
       width: 50px;
-      height: 50px; }
+      height: 50px;
+      color: white !important; }
+      main .navbar-main nav .item-logo span {
+        color: blueviolet; }
       main .navbar-main nav .item-logo:hover {
         color: yellow; }
         main .navbar-main nav .item-logo:hover span {
@@ -123,15 +126,15 @@ main .navbar-main {
       main .navbar-main nav .item-logo i {
         transition: all .3s ease;
         transition: all .4px ease;
-        border-radius: 50%;
-        border: 1px solid yellow;
+        border-radius: 5px;
+        border: 1px solid white;
         padding: 23px;
         font-size: 28px;
-        background-color: white; }
+        background-color: blueviolet; }
       main .navbar-main nav .item-logo span {
         transition: color .3px ease; }
     main .navbar-main nav .nav-logo1 {
-      color: teal; }
+      color: blueviolet; }
       main .navbar-main nav .nav-logo1 i {
         padding-left: 27px;
         padding-right: 27px; }
@@ -172,33 +175,33 @@ main .navbar-main {
   .filter .filter-wrapper label {
     display: block;
     margin-bottom: 5px;
-    color: teal;
+    color: blueviolet;
     font-size: 14px; }
   .filter .filter-wrapper input,
   .filter .filter-wrapper select {
     width: 200px;
     font-size: 16px;
-    color: teal;
+    color: blueviolet;
     outline: none;
     padding: 5px 7px;
     border: 1px solid #c8c8c8; }
   .filter .filter-wrapper input {
     padding: 5px 10px; }
     .filter .filter-wrapper input::placeholder {
-      color: teal;
+      color: blueviolet;
       font-size: 14px; }
   .filter .filter-wrapper select {
     width: 350px; }
   .filter .filter-wrapper .price {
     padding-right: 30px;
     margin-right: 30px;
-    border-right: 3px solid teal; }
+    border-right: 3px solid blueviolet; }
     .filter .filter-wrapper .price .min-price-div {
       margin-bottom: 15px; }
   .filter .filter-wrapper .popularity {
     padding-right: 30px;
     margin-right: 30px;
-    border-right: 3px solid teal; }
+    border-right: 3px solid blueviolet; }
     .filter .filter-wrapper .popularity .city-div {
       margin-bottom: 15px; }
   .filter .filter-wrapper .detail .type-div {
@@ -207,7 +210,7 @@ main .navbar-main {
 h1 {
   margin: 70px auto;
   font-size: 30px;
-  color: teal;
+  color: blueviolet;
   font-weight: 700;
   text-align: center; }
 
@@ -222,7 +225,7 @@ h1 {
     .ads .ad-cards .ad-card .img-div {
       height: 250px;
       position: relative;
-      border: 2px solid teal;
+      border: 2px solid blueviolet;
       border-bottom: none; }
       .ads .ad-cards .ad-card .img-div img {
         width: 100%;
@@ -249,12 +252,12 @@ h1 {
           color: red; }
     .ads .ad-cards .ad-card .content {
       padding: 20px 10px;
-      border: 3px solid teal; }
+      border: 3px solid blueviolet; }
       .ads .ad-cards .ad-card .content ul {
         line-height: 35px; }
         .ads .ad-cards .ad-card .content ul li i {
           margin-right: 7px;
-          color: teal; }
+          color: blueviolet; }
         .ads .ad-cards .ad-card .content ul li span {
           font-size: 16px;
           font-weight: 500; }
@@ -262,7 +265,7 @@ h1 {
 footer {
   margin-top: 100px;
   padding: 50px;
-  background-color: teal;
+  background-color: blueviolet;
   border-top: 4px solid yellow;
   color: white; }
   footer .container {
@@ -309,7 +312,7 @@ footer {
           padding: 8px;
           background-color: yellow;
           margin: 0 10px;
-          color: teal; }
+          color: blueviolet; }
 
 @media screen and (max-width: 1025px) {
   .filter .filter-wrapper {
@@ -320,11 +323,11 @@ footer {
       width: 100%; }
     .filter .filter-wrapper .price {
       border-right: none;
-      border-bottom: 3px solid teal;
+      border-bottom: 3px solid blueviolet;
       padding: 50px 30px; }
     .filter .filter-wrapper .popularity {
       border-right: none;
-      border-bottom: 3px solid teal;
+      border-bottom: 3px solid blueviolet;
       padding: 50px 30px; }
     .filter .filter-wrapper .detail {
       border-right: none;
