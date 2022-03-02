@@ -72,7 +72,7 @@ header {
 .contact-wishlist {
   display: flex;
   justify-content: space-between;
-  width: 300px; }
+  width: 220px; }
   .contact-wishlist .header-contact {
     text-align: left;
     display: flex;
@@ -351,8 +351,11 @@ footer {
       text-align: center; }
     header .contact-wishlist {
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      text-align: center;
+      justify-content: center; }
       header .contact-wishlist .header-contact {
+        justify-content: center;
         white-space: nowrap; }
         header .contact-wishlist .header-contact p {
           white-space: nowrap; }
